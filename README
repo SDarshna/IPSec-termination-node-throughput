@@ -1,3 +1,8 @@
+This Script is used to check the IPSec termination nodes (of a RN in Prisma Access) throughput for a given time in hours. The script gives the output of min,max,avg and 90th percentile throughput for every IPSec termination node. Prisma Access Insights (PAI) APIs have been used to achieve this.
+The output is also stored in csv and json formats along with stdout.The json and csv output can be ingested in the customer's environment.
+
+
+
 (base) dsubashchand@M-JY4VCQYQ64 IPSec node BW % ./ipsec_node.py --help
 usage: ipsec_node.py [-h] [-t1 T1SECRET] [-timerange TIMERANGE]
 
